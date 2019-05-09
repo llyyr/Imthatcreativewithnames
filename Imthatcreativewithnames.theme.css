@@ -1,0 +1,181 @@
+/*//META{"name":"I'm that creative with names","description":"High contrast compact IRC-style Discord dark mode theme. Might work with cozy mode. Don't use on light mode.","author":"llyyr","version":"0.0.1"}*//**/
+.markup-2BOw-j, .guilds-wrapper, .container-PNkimc, .theme-dark .title-3qD0b-, .theme-dark .messages-wrapper, form, .typing-2GQL18, .theme-dark .inner-zqa7da, .theme-dark .members-1998pB, .container-2Thooq, .message-group .comment .markup, .header-2o-2hj, .embedInner-1-fpTo, .search .search-bar, .divider span, .messages .scroller, .scroller-2FKFPG, .attachment-33OFj0, .guilds-1q_RqH, .da-guilds, .da-scroller, .theme-dark .messagesWrapper-3lZDfY, .container-1UB9sr, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .header-ykumBX, .searchBar-6Kv8R2, .searchBar-2_Yu-C, .theme-dark .wrapperAudio-1jDe0Q, .headerPlaying-j0WQBV, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .headerNormal-T_seeN, .theme-dark .quickMessage-1yeL4E, .headerSpotify-zpWxgT, .theme-dark .menu-Sp6bN1, .theme-dark .topSectionNormal-2-vo2m, .emojiPicker-3m1S-j, .theme-dark .autocomplete-1vrmpx, .audioMetadata-3zOuGv .metadataSize-2UOOLK, .metadata-3WGS0M, .uploadModal-2ifh8j, .footer-3mqk7D, .lookInverted-2D7oAl.colorBrand-3pXr91, .uploadModal-2ifh8j .inner-3nWsbo, .lookLink-9FtZy-.colorWhite-rEQuAQ, .white-2qwKC7, .contextMenu-HLZMGh, .cardWarning-2yPNAa, .footer-2yfCgX, .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .defaultColor-1_ajX0, .header-1R_AjF, .appMount-3lHmkl, .video-1FfuMD, .theme-dark .quickSelectPopout-X1hvgV, .theme-dark .headerBar-UHpsPw { /* background and text color */
+    background-color: #000 !important;
+    color: #DDCCBB !important;
+}
+
+.theme-dark [class*=timestamp] { /* make timestamps more visible */
+	color: #69635D !important;
+}
+
+*, :before, :after { /* font */
+    font-family: "Fira Code" !important;
+}
+
+html, [class*=isCompact-]:not(code) {
+    font-size: 15.4px !important;
+}
+
+.markup-2BOw-j { /* line spacing between chat messages */
+    line-height: 1.13 !important;
+}
+
+.searchResultsWrap-2DKFzt { /* search result width */
+    width: 666px !important;
+}
+
+a[href] {
+    color: #FFAA0F !important;
+}
+
+a:visited {
+    color: #FF5D4A !important;
+}
+
+
+.chat-3bRxxu form { /* chat input box margins */
+	margin: 0 0 0 0 !important;
+}
+
+.theme-dark .container-2Thooq { /* user status/mute/deafen/settings panel */
+	align-items: left;
+	padding: 0px 6px 2px 6px;
+	height: 34px;
+	margin-bottom: 0px !important;
+}
+
+.nameUnreadText-DfkrI4 { /* channel color */
+	color: #00AA00 !important;
+}
+
+
+.container-1UB9sr { /* call status divider */
+	border-bottom: 0px !important;
+	padding: 0px !important;
+}
+
+.containerCozy-jafyvG { /* chat message spacing */
+	padding: 5px 0px 5px 0px !important;
+}
+
+.containerDefault-3GGEv_ { /* channel category spacing */
+	padding: 10px 0px 0px 0px !important;
+}
+
+.buttonWrapper-1ZmCpA { /* gift and gif button */
+	display: none !important;
+}	
+
+.attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q { /* attachment */
+	border: 0px !important;
+	padding: 0px !important:
+}
+
+.messageGroupWrapperOffsetCorrection-phOU-k { /* pinned messages offset correction */
+	margin: 0px 0px 0px -20px !important;
+}
+
+.channelTextArea-rNsIhG { /* message input area */
+	padding-top: 0px !important;
+	border-top: 0px !important;
+}
+
+.roleName-32vpEy { /* fix role names in user tooltip */
+	margin-top: 1px !important;
+	overflow: visible !important;
+}
+
+.wrapper-KpKNwI { /* channels take less space */
+	height: 28px !important;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo, .file-34mY5K .icon-kyxXVr.image-2yrs5j { /* high contrast upload modal */
+	border: 0px !important;
+}
+
+.emoji, .emoji.jumboable {
+	margin: 0;
+}
+
+.da-topic > img {
+	display: none;
+}
+
+/* IRC separator */
+  
+:root {
+    /* ch as unit makes the most sense here,
+     * but doesn't work properly with calculating offset of the .accessory div */
+    --username-width: 12rem;
+    --timestamp-width: 3rem;
+    --header-offset: calc(0.3rem + 0.3em); /* first 0.3em from margin-left on timestamp */
+	--separator-margin: 0.5em;
+    /*--username-width: 13ch;
+    --timestamp-width: 9ch;*/ /* use `6ch` for 24h timestamps */
+}
+
+[class*=containerCompact-] { /* accessory */
+    padding-left: calc(70px - var(--timestamp-default-width) + var(--timestamp-width) + var(--username-width) ) !important;
+	padding: 1.1px 0;
+    position: relative;
+}
+
+[class*=containerCompact-] [class*=timestampCompactBase-] {
+    float: left;
+    top: 0.3ex;
+    width: var(--timestamp-width);
+    /*text-align: center;*/
+}
+
+/*.headerCompact-3wRt2W {*/
+[class*=headerCompact-] {
+    position: absolute;
+    left: 0;
+    padding-bottom: 1px; /* for on-hover underline on border; user_style.css */
+}
+
+/*.containerCompact-3V0ioj .usernameWrapper-1S-G5O {*/
+[class*=headerCompact-] > span {
+    display: inline-block;
+    text-align: right;
+    width: var(--username-width);
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding-right: var(--separator-margin);
+    border-right: solid #DDCCBB;
+    border-width: 0 2px;
+}
+
+[class*=markup-][class*=isCompact-] {
+    margin-left: calc(var(--separator-margin) + var(--separator-margin)) !important;
+    padding-left: calc(var(--username-width) + var(--timestamp-width) + var(--header-offset)) !important;
+    text-indent: 0;
+}
+
+/*.containerCompact-3bB5aN {*/
+[class*=containerCompact-][class*=content-] ~ [class*=containerCompact-] {
+    margin: 0 0 0 calc(var(--separator-margin) + var(--separator-margin)) !important;
+    padding-left: calc(var(--username-width) + var(--timestamp-width) + var(--header-offset) + 0rem) !important;
+}
+
+[class*=isMentioned-] {
+    /*padding: 0;*/
+    margin: 0;
+}
+
+[class*=username] {
+    font-weight: 400;
+}
+
+/*
+*, :before, :after {
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  -webkit-animation: none !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+  -moz-animation: none !important;
+  animation: none !important;
+  transform: none !important;
+}
+*/
