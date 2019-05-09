@@ -5,3 +5,4 @@ Also I use it with 75% zoom, so if something is broken or doesn't look right tha
 There are no plans atm to make it work with white theme, or make it easily to customize but it's not really that hard.
 
 # Screenshot
+![](https://github.com/llyyr/Imthatcreativewithnames.theme.css/blob/master/preview/img.png)
