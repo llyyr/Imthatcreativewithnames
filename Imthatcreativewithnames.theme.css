@@ -1,44 +1,44 @@
-/*//META{"name":"I'm that creative with names","description":"High contrast, flat, compact Discord dark mode theme. Works with BetterDiscord/BeautifulDiscord/EnhancedDiscord/anything else","author":"llyyr","version":"2.0.0"}*//**/
+/*//META{"name":"I'm that creative with names","description":"High contrast, flat, compact Discord dark mode theme.","author":"llyyr","version":"2.0.0"}*//**/
 
 
 .theme-dark {
-  --header-primary: #fff; /**/
-  --header-secondary: #b9bbbe; /**/
-  --text-normal: #DDCCBB; /*#dcddde;*/
-  --text-muted: #72767d; /**/
-  --text-link: #FFAA0F; /*#00b0f4;*/
-  --channels-default: #8e9297; /**/
-  --interactive-normal: #b9bbbe; /**/
-  --interactive-hover: #dcddde; /**/
-  --interactive-active: #fff; /**/
-  --interactive-muted: #4f545c; /**/
-  --background-primary: black; /*#36393f;*/
-  --background-secondary: black; /*#2f3136;*/
-  --background-tertiary: black; /*#202225;*/
-  --background-accent: black; /*#4f545c;*/
-  --background-floating: black; /*#18191c;*/
-  --background-mobile-header: black; /*#2f3136;*/
-  --background-modifier-hover: #0E0E0E; /*rgba(79, 84, 92, 0.16);*/
-  --background-modifier-active: #0E0E0E; /*rgba(79, 84, 92, 0.24);*/
-  --background-modifier-selected: #0E0E0E; /*rgba(79, 84, 92, 0.32);*/
-  --background-modifier-accent: #0E0E0E; /*hsla(0, 0%, 100%, 0.06);*/
-  --elevation-low: 0; /*0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);*/
-  --elevation-high: 0; /*0 8px 16px rgba(0, 0, 0, 0.24);*/
-  --logo-primary: #000; /*#fff;*/
-  --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); /**/
-  --channeltextarea-background: black; /*#40444b;*/
-  --activity-card-background: black; /*#202225;*/
-  --deprecated-panel-background: black; /*#292b2f;*/
-  --deprecated-card-bg: black; /*rgba(32, 34, 37, 0.6);*/
-  --deprecated-card-editable-bg: black; /*rgba(32, 34, 37, 0.3);*/
-  --deprecated-store-bg: black; /*#36393f;*/
-  --deprecated-quickswitcher-input-background: black; /*#72767d;*/
-  --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3); /**/
-  --deprecated-text-input-bg: black; /*rgba(0, 0, 0, 0.1);*/
-  --deprecated-text-input-border: black; /*rgba(0, 0, 0, 0.3);*/
-  --deprecated-text-input-border-hover: black; /*#040405;*/
-  --deprecated-text-input-border-disabled: black; /*#202225;*/
-  --deprecated-text-input-prefix: black; /*#dcddde;*/
+    --header-primary: #fff; /**/
+    --header-secondary: #b9bbbe; /**/
+    --text-normal: #DDCCBB; /*#dcddde;*/
+    --text-muted: #72767d; /**/
+    --text-link: #FFAA0F; /*#00b0f4;*/
+    --channels-default: #8e9297; /**/
+    --interactive-normal: #b9bbbe; /**/
+    --interactive-hover: #dcddde; /**/
+    --interactive-active: #fff; /**/
+    --interactive-muted: #4f545c; /**/
+    --background-primary: black; /*#36393f;*/
+    --background-secondary: black; /*#2f3136;*/
+    --background-tertiary: black; /*#202225;*/
+    --background-accent: black; /*#4f545c;*/
+    --background-floating: black; /*#18191c;*/
+    --background-mobile-header: black; /*#2f3136;*/
+    --background-modifier-hover: #0E0E0E; /*rgba(79, 84, 92, 0.16);*/
+    --background-modifier-active: #0E0E0E; /*rgba(79, 84, 92, 0.24);*/
+    --background-modifier-selected: #0E0E0E; /*rgba(79, 84, 92, 0.32);*/
+    --background-modifier-accent: #0E0E0E; /*hsla(0, 0%, 100%, 0.06);*/
+    --elevation-low: 0; /*0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);*/
+    --elevation-high: 0; /*0 8px 16px rgba(0, 0, 0, 0.24);*/
+    --logo-primary: #000; /*#fff;*/
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); /**/
+    --channeltextarea-background: black; /*#40444b;*/
+    --activity-card-background: black; /*#202225;*/
+    --deprecated-panel-background: black; /*#292b2f;*/
+    --deprecated-card-bg: black; /*rgba(32, 34, 37, 0.6);*/
+    --deprecated-card-editable-bg: black; /*rgba(32, 34, 37, 0.3);*/
+    --deprecated-store-bg: black; /*#36393f;*/
+    --deprecated-quickswitcher-input-background: black; /*#72767d;*/
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3); /**/
+    --deprecated-text-input-bg: black; /*rgba(0, 0, 0, 0.1);*/
+    --deprecated-text-input-border: black; /*rgba(0, 0, 0, 0.3);*/
+    --deprecated-text-input-border-hover: black; /*#040405;*/
+    --deprecated-text-input-border-disabled: black; /*#202225;*/
+    --deprecated-text-input-prefix: black; /*#dcddde;*/
 }
 
 .autocomplete-1vrmpx,
@@ -89,11 +89,11 @@
 }
 
 [class*=timestamp] { /* make timestamps more visible */
-	color: #cdd6d8 !important;
+    color: #cdd6d8 !important;
 }
 
 .theme-dark [class*=searchResult-] [class*=hit-] { /* search result box */
-	box-shadow:none;
+    box-shadow:none;
 }
 
 body { /* font */
@@ -114,16 +114,16 @@ body { /* font */
 }*/
 
 .containerCozy-jafyvG { /* chat message spacing */
-	padding: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
 }
 
 .buttonWrapper-1ZmCpA { /* gift and gif button */
-	display: none;
+    display: none;
 }
 
 .attachment-33OFj0, .wrapperAudio-1jDe0Q { /* attachment */
-	border: 0px;
-	padding: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
 .attachment-33OFj0 > img, .attachment-33OFj0 > a {
@@ -131,17 +131,17 @@ body { /* font */
 }
 
 .messageGroupWrapperOffsetCorrection-phOU-k { /* pinned messages offset correction */
-	margin: 0px 0px 0px -20px;
+    margin: 0px 0px 0px -20px;
 }
 
 .channelTextArea-rNsIhG { /* message input area */
-	padding-top: 0px;
-	border-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
 }
 
 .roleName-32vpEy { /* fix role names in user tooltip */
-	margin-top: 2.5px;
-	overflow: visible;
+    margin-top: 2.5px;
+    overflow: visible;
 }
 
 .topic-TCb_qw.expandable-9fI_e3 > img { /*remove emojis from channel topic*/
@@ -151,7 +151,6 @@ body { /* font */
 [class*=dots-] { /*remove dots gif*/
     display:none !important;
 }
-
 
 /* IRC separator */
   
@@ -179,7 +178,7 @@ body { /* font */
 [class*=headerCompact-] {
     position: absolute;
     left: 0;
-    padding-bottom: 1px;
+    padding-bottom: 1px; /* for on-hover underline on border; user_style.css */
 }
 
 /*.containerCompact-3V0ioj .usernameWrapper-1S-G5O {*/
