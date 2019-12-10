@@ -1,8 +1,2 @@
-# Imthatcreativewithnames.theme.css
-[WIP] Discord theme which (attempts) to make it look like IRC. USE WITH DARK THEME AND COMPACT MODE ONLY
-Also I use it with 75% zoom, so if something is broken or doesn't look right that might be why but it shouldn't be an issue.
-
-There are no plans atm to make it work with white theme, or make it easily to customize but it's not really that hard.
-
-# Screenshot
-![](https://github.com/llyyr/Imthatcreativewithnames.theme.css/blob/master/preview/img.png)
+# I'm that creative with names
+A very high contrast and flat Discord theme that tries to look like an IRC client when used in Compact Mode. But it works on Cozy as well.
